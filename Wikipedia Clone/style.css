@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* margin-top: 39px; */
+}
+
+.navbar{
+    /* height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFC017;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    border: 1px solid black; */
+
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    /* background-color: white; */
+    /* position: fixed; */
+    /* position: absolute; */
+    top: 0;
+    /* width: 100%; */
+    z-index: 2;
+}
+
+.content:link{
+    color: black;
+}
+.content:visited{
+    color: black;
+}
+
+
+.ham{
+    height: 29px;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 29px;
+    margin-right: 664px;
+    margin-top: 13px;
+    justify-content: center;
+}
+
+
+.lg{
+    height: 57px;
+    width: 204px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-left: -816px;
+}
+
+.box{
+    height: 34px;
+    width: 46px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.search{
+    height: 25px;
+    width: 330px;
+    margin-top: 7px;
+    margin-left: -1024px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .box::before{
+    content: icon;
+} */
+
+button{
+    color: black;
+    margin-top: 7px;
+    height: 28px;
+    /* width: 1px; */
+}
+
+.link{
+    margin-top: 17px;
+    margin-right: -32px;
+}
+
+.link1{
+    margin-top: 12px;
+    /* margin-right: 192px; */
+    /* justify-content: center; */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* display: flex; */
+    /* justify-content:space-between; */
+}
+
+
+/* .link{
+    height: 32px;
+    width: 339px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+} */
+/* .space{
+    margin-top: 1px;
+} */
+
+.clearfix{
+    clear: both;
+}
+
+
+.content{
+    height: 500px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 39px;
+}
+
+.contents{
+    margin-top: 89px;
+    float: left;
+    /* border: 1px solid black; */
+    width: 176px;
+    margin-left: 56px;
+    position: fixed;
+    /* text-decoration: none; */
+
+}
+#pea{
+    color: black;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.nav{
+    text-decoration: none;
+    color: blue;
+}
+
+.nav:hover{
+    text-decoration: underline;
+}
+
+
+.info{
+    margin-top: 10px;
+    float: left;
+    height: 50px;
+    width: 73%;
+}
+
+.images{
+    float: right;
+    /* height: 200px;
+    width: 24%; */
+    /* border: 1px solid black; */
+}
+
+
+/* 
+
+.img1{
+    height: 150px;
+    margin-top: 10px;
+}
+
+.img2{
+    height: 139px;
+    margin-top: 10px;
+}
+.img3{
+    height: 244px;
+    margin-top: 10px;
+    margin-left: 50px;
+} */
+
+
+.img1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Peacock_Plumage.jpg/1920px-Peacock_Plumage.jpg);
+}
+
+.img2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Magnificent_Peafowl.jpg/1920px-The_Magnificent_Peafowl.jpg);
+}
+.img3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Female_Pefowl_001.jpg/800px-Female_Pefowl_001.jpg);
+}
+.img4{
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-edbd9fd30ddfc03561e405f5ef0e6454.webp);
+}
+.img5{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Baby_Peacock_%2818131813108%29.jpg/1280px-Baby_Peacock_%2818131813108%29.jpg);
+}
+.img6{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Peacock-JS.jpg/1920px-Peacock-JS.jpg);
+}
+.img7{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Peahen_at_the_zoo.jpg/1280px-Peahen_at_the_zoo.jpg);
+}
+.img8{
+    background-image: url(https://cdn.pixabay.com/photo/2023/03/14/20/22/ai-generated-7853105_1280.jpg);
+}
+
+.img9{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peacock_Flying.jpg/1920px-Peacock_Flying.jpg);
+}
+.img10{
+    background-image: url(https://images.meesho.com/images/products/102712991/npjvp_512.webp);
+}
+.img11{
+    background-image: url(https://cdn.firstcry.com/education/2023/01/03161719/The-Peacock-Story-With-Moral-For-Kids-768x525.jpg);
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11{
+    /* float: right; 
+    margin-top: 15px;
+    height: 140px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 11; */
+
+    margin-top: 11px;
+    height: 139px;
+    width: 236px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
