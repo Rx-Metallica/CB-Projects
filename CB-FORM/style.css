@@ -1,0 +1,168 @@
+/* .header-section{
+    border: 1px solid black;
+} */
+
+
+.header-section{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.header-section-table{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.cb-logo,
+.header-section-heading,
+.enquiry-info{
+    width: 30%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.cb-logo-img{
+    width: 50%;
+    /* border: 1px solid green; */
+    background-image: url('images/cblogo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    height: 100px;
+}
+
+.header-section-heading,
+.enquiry-info{
+    font-size: 30px;
+}
+.header-section-heading{
+    text-decoration: underline;
+}
+
+.enquiry-checkbox input,
+.enquiry-enrolled input{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+.user-details{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.user-details-table{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 200px;
+}
+
+.user-details-info{
+    width: 45%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+.user-details-field{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.user-details-input{
+    font-size: 20px;
+    width: 70%;
+    margin: 3px 0;
+}
+
+.user-fields-text{
+    float: left;
+    width: 20%;
+    
+}
+.user-fields-input{
+    float: right;
+    width: 79%;
+    /* border: 1px solid orchid; */
+}
+
+
+
+.course-choose-section{
+    width: 80%;
+    margin: 20px auto;
+
+    /* border: 1px solid black; */
+}
+
+.course-choose-heading{
+    font-size: 22px;
+}
+
+.choose-course-item-1,
+.choose-course-item-2{
+    width: 50%;
+    height: 200px;
+}
+
+/* .course-selection{ */
+    /* border: 1px solid black; */
+/* } */
+
+.choose-course-item-1{
+    /* background-color: orange; */
+    float: left;
+}
+.choose-course-item-2{
+    /* background-color: blue; */
+    float: right;
+}
+
+.courses-checkbox{
+    height: 20px;
+    width: 20px;
+}
+
+.courses-name{
+    font-size: 22px;
+}
+
+.courses-name-container{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.Centre{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 22px;
+}
+
+.centre-info{
+    margin-top: 60px;
+}
+
+.centre{
+    margin-top: 15px;
+}
+
+.frnds{
+    margin-top: 16px;
+}
+
+.chk{
+    margin-top: 5px;
+    /* font-size: 22px; */
+}
+
+.fix{
+    width: 36%;
+    height: 21px;
+}
