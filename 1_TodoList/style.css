@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+h1{
+    color: darkslategrey;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.newtask{
+    font-size: 30px;
+    width: 60%;
+}
+.btn{
+    font-size: 30px;
+    width: 0;
+    padding: 3px;
+    width: 15%;
+    background-color: purple;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+input::placeholder{
+    color: black;
+}
+
+.inpdetails{
+    display: flex;
+    justify-content: center;
+}
+.tasklist{
+    /* border: 1px solid black; */
+    width: 76%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    list-style: none;
+}
+.task{
+    /* margin-bottom: 20px; */
+    border-bottom: 1px solid black;
+    border-color: #ccc;
+    /* padding-bottom: 5px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.task:last-child{
+    margin-bottom: 0px;
+
+}
+
+.upbtn,
+.dwnbtn,
+.delbtn{
+    font-size: 30px;
+    background-color: purple;
+    color: white;
+    border: 0;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+li:first-child .btngrp .upbtn,
+li:last-child .btngrp .dwnbtn{
+    display: none;
+}
